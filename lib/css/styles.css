@@ -695,6 +695,8 @@ select {
    left: 35%;
    margin: -100px 0 0 -150px;
    padding: 10% 0 0 10%;
+   margin-bottom: 50%;
+   clear: both;
 }
 .product_detail p {
  text-align: center;
