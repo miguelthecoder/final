@@ -7,7 +7,7 @@ include 'header.php';
   </div>
 <?php
   try {
-    $conn = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
+    $conn = new PDO('mysql:dbname=MRosasFinal;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
    $productdetails = 'SELECT * FROM products WHERE id = :id';
 
    $prep = $conn->prepare($productdetails);

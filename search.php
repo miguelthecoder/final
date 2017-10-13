@@ -19,7 +19,7 @@ $searchTerm =!empty($_GET['searchTerm']) ? $_GET['searchTerm'] : '';
         try{
         // connect to the DB
         // $conn = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
-        $conn = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
+        $conn = new PDO('mysql:dbname=MRosasFinal;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $searchTerm = '%' . $_GET['search'] . '%' ;//put the percents here..
         if(isset($_GET['search'])) {

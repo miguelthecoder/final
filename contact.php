@@ -50,7 +50,7 @@ if ($displayForm){
 	if(!empty($_POST)){
 		// try this
     try {
-      $db = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
+      $db = new PDO('mysql:dbname=MRosasFinal;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
       $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         //query where are you inserting into...
       $query = 'INSERT INTO comments(comment, name) VALUES (:comment, :name)';
