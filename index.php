@@ -13,11 +13,11 @@ include 'header.php';
       <img onclick="window.location='detailpage.php?id=12'" src="lib/img/img/sor-juana.jpg" alt="sor-juana" >
       </div>
    </main>
-   <div class="bottomIndex">
+   <!-- <div class="bottomIndex">
       <p>Please check out the selection.<p><a href="products.php">Continue Shopping!</a>
       <p>Help us Improve</p><a href="contact.php">Comments</a>
       <p>Thank You For visiting us.</p>
-   </div>
+   </div> -->
 <?php
 include 'footer.php';
 ?>
