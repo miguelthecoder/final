@@ -705,7 +705,7 @@ select {
     height: 230px;
 }
 .banner{
-  width: 26%;
+  width: 100%;
   height: 30%;
   bottom: 10%;
   left: 25%;
@@ -745,14 +745,13 @@ select {
   margin: 5%;
 }
 .bottomIndex{
-  padding-top: 10%;
   padding-bottom: 20%
 }
 #one{
   text-align: center;
 }
 link {
-  color:#c7c8c9; 
+  color:#c7c8c9;
 }
 /*.wholeForm{
   width: 100%;
