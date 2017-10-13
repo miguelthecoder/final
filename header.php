@@ -32,16 +32,14 @@ $_SESSION['quantity'] = $_SESSION['quantity'] + $_GET['quantity'];
       <span></span>
       <span></span>
     </div>
-
     <div id="sidebar">
-
       <nav>
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="products.php">Products</a></li>
           <li><a href="search.php">Search</a></li>
           <li><a href="contact.php">Contact</a></li>
-        <ul>
+        </ul>
       </nav>
     </div>
 

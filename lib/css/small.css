@@ -640,13 +640,13 @@ footer a {
   text-decoration: none;
 }
 
-.navi-Footer li {
+.nav-footer li {
   display: inline-block;
   padding: 10px;
   text-align: center;
 }
 
-.navi-Footer .footerUl {
+.nav-footer .footer-ul {
   text-align: center;
 }
 .bottom{

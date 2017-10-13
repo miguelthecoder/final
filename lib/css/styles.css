@@ -634,14 +634,13 @@ footer a {
   text-decoration: none;
 }
 
-.navi-Footer li {
+.nav-footer li {
   display: inline-block;
   padding: 10px;
   text-align: center;
 }
 
-.navi-Footer .footer
-ul {
+.nav-footer .footer-ul {
   text-align: center;
 }
 .bottom{
@@ -737,6 +736,7 @@ select {
 .redirect a:visited {
   color: black;
   text-align: center;
+  text-shadow: 4px black;
 }
 .redirect{
   color: black;
@@ -750,6 +750,9 @@ select {
 }
 #one{
   text-align: center;
+}
+link {
+  color:#c7c8c9; 
 }
 /*.wholeForm{
   width: 100%;
