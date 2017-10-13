@@ -696,6 +696,7 @@ select {
    margin: -100px 0 0 -150px;
    padding: 10% 0 0 10%;
    margin-bottom: 50%;
+   padding-bottom: 10%;
    clear: both;
 }
 .product_detail p {
