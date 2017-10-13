@@ -8,16 +8,17 @@ $_SESSION['quantity'] = $_SESSION['quantity'] + $_GET['quantity'];
   <head>
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
-  	<link rel="stylesheet" media="screen and (min-width: 0px)" href="lib/css/small.css">
+  	<link rel="stylesheet" media="screen and (max-width: 799px)" href="lib/css/small.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" href="lib/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
   <link rel="stylesheet" type="text/javascript" href="slick-1.8.0/slick/slick.css">
-  <script type="text/javascript" src="slick-1.8.0/slick/slick.min.js"></script>
+  <script type="text/javascript" src="slick-1.8.0/slick/slick.js"></script> -->
+  <script type="text/javascript" src="lib/javascript/cycle2.min.js"></script>
   </head>
   <body>
     <div class="Shoppingcart">
