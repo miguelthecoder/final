@@ -466,10 +466,11 @@ template {
   position: fixed;
   width: 20vw;
   height: 100%;
-  background:  rgba(25, 25, 25, .7);
+  background:  rgb(25, 25, 25);
   left: -20vw;
   border-radius: 0 10px 10px 0 ;
   transition: all 0.5s ease;
+  z-index: 15;
 }
 
 #sidebar.active {
@@ -546,7 +547,7 @@ textarea {
 fieldset {
   border: none;
   margin: 0 0 25% 0;
-  text-align: center;
+  text-align: left;
 }
 input[type=submit]:hover {
 	background-color:#000;
@@ -559,7 +560,7 @@ input[type=submit]:hover {
 }
 
 a:visited {
-  color: yellow;
+  color:#c7c8c9;
 }
 
 #searchButton{
@@ -607,7 +608,9 @@ body {
   text-align: center;
   border: solid #989a9b 5px;
   box-shadow: 10px 10px 5px #888888;
-  margin: 130px;
+  margin: 13%;
+  width: 80%;
+  margin-left: 9%;
 }
 h1 {
   text-align: center;
@@ -623,6 +626,7 @@ h2 {
 
 footer {
   position:fixed;
+  color: #c7c8c9;
   left:0px;
   bottom:0px;
   height:100px;
@@ -656,6 +660,8 @@ footer a {
   height: 15%;
   vertical-align: top;
   width: 30.33%;
+  margin-bottom: 15%;
+  margin-top: 15%;
 }
 
 .products img {
@@ -674,16 +680,91 @@ select {
   text-align: center;
   float:left;
   display: inline;
-  right: 83%;
-  bottom: 50%;
+  right: 63%;
+  bottom: 26%;
+  z-index: 15;
 }
+
 #cat {
   position: absolute;
   text-align: center;
   float:left;
   display: inline;
-  right: 81.4%;
-  bottom: 50%;
+  right: 63%;
+  bottom: 15%;
+  z-index: 15;
+}
+
+.product_detail {
+  font-size: 78%;
+  text-align: center;
+  position:  absolute;
+  height: 60%;
+  left: 10%;
+  margin-bottom: 50%;
+  clear: both;
+}
+.product_detail img {
+  position: relative;
+  /*display: inline-block;
+  float: left;*/
+  width: 56%; /*set the width or max-width*/
+}
+.product_detail p {
+ text-align: center;
+}
+.detailHeader{
+  /*padding-bottom: 40%;*/
+}
+.cart{
+  padding-bottom: 30%;
+}
+.banner{
+  width: 26%;
+  height: 50%;
+  bottom: 4%;
+  left: 25%;
+  margin: -100px 0 0 -150px;
+  padding: 13% 0 0 15%;
+
+}
+.banner img {
+  position: relative;
+   float: left;
+   width:  340px;
+   height: 100%;
+   background-position: 50% 50%;
+   background-repeat:   no-repeat;
+   background-size:     cover;
+   margin: 20% 20% 20% 20%;
+   padding-bottom: 50%;
+   bottom: 20%;
+}
+.Shoppingcart{
+  position: fixed;
+  z-index: 15;
+  padding: 1%;
+  right:61%;
+  text-shadow:  .3px .3px black;
+}
+
+.redirect a:visited {
+  color: black;
+  text-align: center;
+}
+.redirect a:link {
+  color: black;
+  text-align: center;
+}
+.redirect{
+  color: black;
+  text-align: center;
+  padding: 2%;
+  margin: 5%;
+}
+.bottomIndex{
+  padding-top: 30%;
+  text-align: center;
 }
 /*.wholeForm{
   width: 100%;

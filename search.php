@@ -1,11 +1,12 @@
 <?php
-$title="search";
+$title="Search Page";
 include 'header.php';
+$searchTerm =!empty($_GET['searchTerm']) ? $_GET['searchTerm'] : '';
 ?>
     <div class="searchForm">
     <form class="searchBar" action="search.php" method="GET">
         <label for="search">
-          <input id="search"type="text" name="search" placeholder="Art, Books, Architecture">
+          <input id="search"type="text" minlength="2"name="search" placeholder="Art, Books, Price">
           </input>
         </label>
       <button id="searchButton" type="submit" >🔎
@@ -18,7 +19,7 @@ include 'header.php';
         try{
         // connect to the DB
         // $conn = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
-        $conn = new PDO('mysql:dbname=Final;host=localhost', 'root', 'root');
+        $conn = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $searchTerm = '%' . $_GET['search'] . '%' ;//put the percents here..
         if(isset($_GET['search'])) {
@@ -27,10 +28,10 @@ include 'header.php';
         // prepare preps a statement and returns an object.
         $prepared = $conn->prepare($products);
 
-        $prepared->bindParam(':searchTerm1', $searchTerm;
-        $prepared->bindParam(':searchTerm2', $searchTerm;
-        $prepared->bindParam(':searchTerm3', $searchTerm;
-        $prepared->bindParam(':searchTerm4', $searchTerm;
+        $prepared->bindParam(':searchTerm1', $searchTerm);
+        $prepared->bindParam(':searchTerm2', $searchTerm);
+        $prepared->bindParam(':searchTerm3', $searchTerm);
+        $prepared->bindParam(':searchTerm4', $searchTerm);
 
         $prepared->execute();
 
