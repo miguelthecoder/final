@@ -714,7 +714,7 @@ select {
   z-index: 15;
 }
 .banner img {
-  /*position: relative;
+  position: relative;
    float: left;
    width:  340px;
    height: 100%;
@@ -723,7 +723,8 @@ select {
    background-size:     cover;
    margin: 20% 20% 20% 20%;
    padding-bottom: 50%;
-   bottom: 20%;*/
+   bottom: 20%;
+   z-index: 15;
 }
 .Shoppingcart{
   position: fixed;
