@@ -3,8 +3,11 @@ $title="Welcome";
 include 'header.php';
  ?>
    <main>
+      <h1>Latino Herritage Store</h1>
       <div class="inner">
-         <h1> This Month's Featured Items </h1>
+         <h2>Welcome to your shop!</h2>
+         <p>Welcome to our site!</p>
+         <p>We have great Books, Art and Shirts.</p>
       </div>
       <div class="banner cycle-slideshow">
          <img onclick="window.location='detailpage.php?id=3'" src="lib/img/img/circuit.jpg" alt="The Circuit Book" />

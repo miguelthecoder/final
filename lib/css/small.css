@@ -560,7 +560,7 @@ input[type=submit]:hover {
 }
 
 a:visited {
-  color:#c7c8c9;
+  color:#fff;
 }
 
 #searchButton{
@@ -634,6 +634,7 @@ footer {
   background:rgb(25, 25, 25);
   display: inline;
   float: left;
+  z-index: 100;
 }
 footer a {
   display: inline-block;
@@ -725,32 +726,39 @@ select {
   bottom: 4%;
   left: 25%;
   margin: -100px 0 0 -150px;
-  padding: 13% 0 0 15%;
+  padding: 23% 10% 0 15%;
 
 }
 .banner img {
   position: relative;
    float: left;
-   width:  85%;
-   height: 100%;
+   width:  140px;
+   height: 70%;
    background-position: 50% 50%;
    background-repeat:   no-repeat;
    background-size:     cover;
-   margin: 20% 20% 20% 20%;
-   padding-bottom: 10%;
-   bottom: 10%;
+   margin: 30% 20% 30% 20%;
+   padding-bottom: 50%;
    padding-left: 60%;
+   bottom: 20%;
 }
-.Shoppingcart{
+}
+.Shoppingcart {
   position: fixed;
   z-index: 15;
   padding: 1%;
   right:61%;
   text-shadow:  .3px .3px black;
 }
+.Shoppingcart a {
+  color: black;
+}
+.Shoppingcart a:visited{
+  color: black;
+}
 
 .redirect a:visited {
-  color: black;
+  color: white;
   text-align: center;
 }
 .redirect a:link {
@@ -765,12 +773,37 @@ select {
 }
 .bottomIndex{
   position: relative;
-  padding: 30%;
+  /*padding: 30%;*/
   width: 30vh;
   text-align: center;
+   margin: 20% 20% 20% 20%;
+   padding-bottom: 10%;
+   bottom: 10%;
+   padding-left: 17%;
+}
 }
 link {
-  color:#c7c8c9;
+  text-decoration: overline;
+}
+h2 {
+  text-align: center;
+}
+.inner{
+  padding-top:1%;
+  text-align: center;
+  bottom: 30%;
+  font-size: 80%;
+  padding-bottom: 30%;
+}
+a {
+  color: white;
+}
+.Shoppingcart{
+  position: fixed;
+  z-index: 15;
+  padding: 1%;
+  right:51%;
+  text-shadow:  .3px .3px black;
 }
 /*.wholeForm{
   width: 100%;
