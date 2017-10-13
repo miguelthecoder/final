@@ -726,7 +726,7 @@ select {
   left: 25%;
   margin: -100px 0 0 -150px;
   padding: 13% 0 0 15%;
-
+  z-index: 15;
 }
 .banner img {
   position: relative;
