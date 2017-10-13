@@ -640,13 +640,13 @@ footer a {
   text-decoration: none;
 }
 
-.nav-footer li {
+.navi-footer li {
   display: inline-block;
   padding: 10px;
   text-align: center;
 }
 
-.nav-footer .footer-ul {
+.navi-footer .footer-u-l {
   text-align: center;
 }
 .bottom{
@@ -718,8 +718,9 @@ select {
 }
 .cart{
   padding-bottom: 30%;
+  font-size: 3%;
 }
-.banner{
+/*.banner{
   width: 26%;
   height: 50%;
   bottom: 4%;
@@ -739,7 +740,7 @@ select {
    margin: 20% 20% 20% 20%;
    padding-bottom: 50%;
    bottom: 20%;
-}
+}*/
 .Shoppingcart{
   position: fixed;
   z-index: 15;

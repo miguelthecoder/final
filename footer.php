@@ -1,11 +1,11 @@
     <footer>
-       <nav class="nav-footer">
-        <ul class="footer-ul">
+      <nav class="navi-footer">
+        <ul class="footer-u-l">
           <li><a href="index.php">Home</a></li>
           <li><a href="products.php">Products</a></li>
           <li><a href="search.php">Search</a></li>
           <li><a href="contact.php">Contact</a></li>
-        <ul>
+        </ul>
       </nav>
       <div class="bottom">
       <a href="https://en.wikipedia.org/wiki/Mexican_art"> More Art </a>
