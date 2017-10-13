@@ -1,6 +1,6 @@
     <footer>
-       <nav class="nav-footer">
-        <ul class="footer-ul">
+       <nav class="navi-Footer">
+        <ul class="footerUl">
           <li><a href="index.php">Home</a></li>
           <li><a href="products.php">Products</a></li>
           <li><a href="search.php">Search</a></li>
