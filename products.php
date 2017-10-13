@@ -20,8 +20,7 @@ include 'header.php';
     <?php
       try{
       // connect to the DB
-      // $conn = new PDO('mysql:dbname=MRosas_SQLchalleng;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
-      $conn = new PDO('mysql:dbname=Final;host=localhost', 'root', 'root');
+      $conn = new PDO('mysql:dbname=MRosasFinal;host=localhost', 'r2hstudent', 'SbFaGzNgGIE8kfP');
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $products = "SELECT * FROM products";
 
