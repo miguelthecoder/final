@@ -708,9 +708,9 @@ select {
   width: 100%;
   height: 30%;
   bottom: 10%;
-  /*left: 25%;
+  left: 25%;
   margin: -100px 0 0 -150px;
-  padding: 13% 0 0 15%;*/
+  padding: 13% 0 0 15%;
   z-index: 15;
 }
 .banner img {
@@ -744,9 +744,9 @@ select {
   padding: 2%;
   margin: 5%;
 }
-.bottomIndex{
+/*.bottomIndex{
   padding-bottom: 20%
-}
+}*/
 #one{
   text-align: center;
 }
