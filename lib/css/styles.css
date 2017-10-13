@@ -714,7 +714,6 @@ select {
   padding: 13% 0 0 15%;
 }
 .banner img {
-
   position: relative;
    float: left;
    width:  340px;
@@ -745,9 +744,7 @@ select {
   padding: 2%;
   margin: 5%;
 }
-/*.bottomIndex{
-  padding-bottom: 20%
-}*/
+
 #one{
   text-align: center;
 }

@@ -739,7 +739,7 @@ select {
    margin: 20% 20% 20% 20%;
    padding-bottom: 10%;
    bottom: 10%;
-   padding-left: 70%;
+   padding-left: 60%;
 }
 .Shoppingcart{
   position: fixed;
@@ -768,6 +768,9 @@ select {
   padding: 30%;
   width: 30vh;
   text-align: center;
+}
+link {
+  color:#c7c8c9;
 }
 /*.wholeForm{
   width: 100%;
