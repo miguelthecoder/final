@@ -9,7 +9,7 @@ include 'header.php';
     <form class="selectCategory" action="products.php" method="get">
     <label id="category"for="category"></label>
     <select name="category">
-      <option value="">All</option>
+      <option value="">Filter</option>
       <option value="Architecture">Architecture</option>
       <option value="Art">Art</option>
       <option value="Books">Books</option>
