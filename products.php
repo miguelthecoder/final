@@ -2,10 +2,11 @@
 $title="Product Page";
 include 'header.php';
 ?>
-
+<!-- ////select for filter. -->
 <h1>Products Available</h1>
   <div class="category">
     <form class="selectCategory" action="products.php" method="get">
+    <label id="category"for="category"></label>
     <select name="category">
       <option value="">All</option>
       <option value="Architecture">Architecture</option>

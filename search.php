@@ -3,16 +3,6 @@ $title="Search Page";
 include 'header.php';
 $searchTerm =!empty($_GET['searchTerm']) ? $_GET['searchTerm'] : '';
 ?>
-    <div class="searchForm">
-    <form class="searchBar" action="search.php" method="GET">
-        <label for="search">
-          <input id="search"type="text" minlength="2"name="search" placeholder="Art, Books, Price">
-          </input>
-        </label>
-      <button id="searchButton" type="submit" >🔎
-      </button>
-    </form>
-    </div>
     <h1>Welcome to the search Page</h1>
     <div class="search">
       <?php

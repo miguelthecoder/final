@@ -10,7 +10,7 @@ $_SESSION['quantity'] = $_SESSION['quantity'] + $_GET['quantity'];
     <title><?php echo $title; ?></title>
   	<link rel="stylesheet" media="screen and (max-width: 799px)" href="lib/css/small.css">
     <link rel="stylesheet" media="screen and (min-width: 800px)" href="lib/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Lobster" rel="stylesheet">
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -21,13 +21,6 @@ $_SESSION['quantity'] = $_SESSION['quantity'] + $_GET['quantity'];
   <script type="text/javascript" src="lib/javascript/cycle2.min.js"></script>
   </head>
   <body>
-    <div class="Shoppingcart">
-    <p id="cart"><a href="products.php">🛒</a>
-      <?php
-          echo $_SESSION['quantity']
-       ?>
-    </p><a href="clearCart.php">Clear Cart</a>
-  </div>
     <div class="toggle-btn" onclick="toggleSidebar()">
       <span></span>
       <span></span>
@@ -42,6 +35,13 @@ $_SESSION['quantity'] = $_SESSION['quantity'] + $_GET['quantity'];
           <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
+      <div id="cart">🛒
+        <?php
+            echo $_SESSION['quantity']
+         ?>
+      <p><a href="clearCart.php">Clear Cart</a></p>
+    </div>
+    </div>
     </div>
 
     <div id="content-container">
