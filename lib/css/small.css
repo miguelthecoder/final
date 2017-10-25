@@ -664,6 +664,7 @@ footer a {
 }
 
 .products {
+  line-height: 3px;
   text-align: center;
   margin: auto 10%;
   display: inline-block;
@@ -674,10 +675,6 @@ footer a {
   margin-bottom: 15%;
   margin-top: 15%;
   clear: both;
-}
-.products p{
-  text-align: center;
-  display: inline-block;
 }
 
 .products img {
