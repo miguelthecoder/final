@@ -2,7 +2,7 @@
 $title="Search Page";
 include 'header.php';
 $searchTerm =!empty($_GET['searchTerm']) ? $_GET['searchTerm'] : '';
-?>
+?>  <div class="produContain2">
     <h1>Welcome to the search Page</h1>
     <div class="search">
       <?php
@@ -46,6 +46,7 @@ $searchTerm =!empty($_GET['searchTerm']) ? $_GET['searchTerm'] : '';
       }
 
       ?>
+    </div>
     </div>
 
 <?php include 'footer.php'; ?>

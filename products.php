@@ -3,6 +3,7 @@ $title="Product Page";
 include 'header.php';
 ?>
 <!-- ////select for filter. -->
+<div class="produContain">
 <h1>Products Available</h1>
   <div class="category">
     <form class="selectCategory" action="products.php" method="get">
@@ -17,7 +18,7 @@ include 'header.php';
     <button id="cat" type="submit" name="submit">Go</button>
     </form>
   </div>
-  <div class="search">
+  <div class="prod">
     <?php
       try{
       // connect to the DB
@@ -57,6 +58,7 @@ include 'header.php';
     }
 
     ?>
+  </div>
   </div>
 
 <?php include 'footer.php'; ?>
