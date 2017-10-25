@@ -2,6 +2,7 @@
 $title="Product Detail";
 include 'header.php';
 ?>
+<div class="detailCont">
   <div class="detailHeader">
     <h1>Choose your Product</h1>
   </div>
@@ -33,4 +34,5 @@ include 'header.php';
     echo "its broke";
   }
 ?>
+</div>
 <?php include 'footer.php'; ?>

@@ -845,3 +845,8 @@ text-shadow: 1px 1px #FF0000;
   margin-bottom: 10px;
   clear: both;
 }
+.detailCont {
+  height: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}

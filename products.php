@@ -35,7 +35,6 @@ include 'header.php';
       if (!empty($_GET['category'])) {
         $prepared->bindParam(':category', $_GET['category']);
       }
-
       $prepared->execute();
 
       foreach($prepared->fetchALL() as $category) {
