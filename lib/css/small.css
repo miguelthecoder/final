@@ -673,6 +673,11 @@ footer a {
   width: 30.33%;
   margin-bottom: 15%;
   margin-top: 15%;
+  clear: both;
+}
+.products p{
+  text-align: center;
+  display: inline-block;
 }
 
 .products img {
@@ -680,6 +685,7 @@ footer a {
     float: left;*/
     width:200px; /*set the width or max-width*/
     height: 230px;
+    clear: both;
 }
 .product {
   width: 20%;
