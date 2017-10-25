@@ -10,8 +10,7 @@
       <div class="searchForm">
       <form class="searchBar" action="search.php" method="GET">
           <label for="search">
-            <input id="search"type="text" minlength="2"name="search" placeholder="Art, Books, Price">
-            </input>
+            <input id="search" type="text" minlength="2" name="search" placeholder="Art, Books, Price"/>
           </label>
         <button id="searchButton" type="submit" >🔎
         </button>

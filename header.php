@@ -41,7 +41,7 @@ $_SESSION['quantity'] = $_SESSION['quantity'] + $_GET['quantity'];
          ?>
       <p><a href="clearCart.php">Clear Cart</a></p>
     </div>
-    </div>
+    
     </div>
 
     <div id="content-container">
