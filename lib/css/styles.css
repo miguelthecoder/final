@@ -844,4 +844,5 @@ text-shadow: 1px 1px #FF0000;
   padding-bottom: 5px;
   margin-bottom: 5px;
   background-color: red;
+  clear: both;
 }
