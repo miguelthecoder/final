@@ -671,12 +671,14 @@ body a:hover {
   height: 450px;
   vertical-align: top;
   width: 30.33%;
+  clear: both;
 }
 .products img {
   /*display: inline-block;
   float: left;*/
   width: 220px; /*set the width or max-width*/
   height: 230px;
+  clear: both;
 }
 
 .product {
@@ -715,8 +717,8 @@ bottom: 2%;
    left: 35%;
    margin: -100px 0 0 -150px;
    padding: 10% 0 0 10%;
-   margin-bottom: 50%;
-   padding-bottom: 10%;
+   margin-bottom: 30px;
+   padding-bottom: 10px;
    clear: both;
 }
 .product_detail p {
