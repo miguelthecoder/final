@@ -687,12 +687,12 @@ body a:hover {
 }
 
 select {
-  position: fixed;
+  position: absolute;
   text-align: center;
   float:left;
   display: inline;
   right: 83%;
-  bottom: 50%;
+  bottom: 60%;
 }
 #selectCategory{
 position: fixed;
@@ -704,7 +704,7 @@ bottom: 2%;
   float:left;
   display: inline;
   right: 78%;
-  bottom: 50%;
+  bottom: 60%;
 }
 
 .product_detail {

@@ -3,9 +3,9 @@ $title="Search Page";
 include 'header.php';
 $searchTerm =!empty($_GET['searchTerm']) ? $_GET['searchTerm'] : '';
 ?>
-    <div class="produContain2">
     <h1>Welcome to the search Page</h1>
     <div class="search">
+    <div class="produContain2">
       <?php
         try{
         // connect to the DB

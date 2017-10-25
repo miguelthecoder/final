@@ -664,6 +664,7 @@ footer a {
 }
 
 .products {
+  text-align: center;
   margin: auto 10%;
   display: inline-block;
   text-align: center;
@@ -690,9 +691,8 @@ select {
   text-align: center;
   float:left;
   display: inline;
-  right: 43%;
-  bottom: 76%;
-  z-index: 15;
+  right: 63%;
+  bottom: 60%;
 }
 
 #cat {
@@ -700,9 +700,8 @@ select {
   text-align: center;
   float:left;
   display: inline;
-  right: 36%;
-  bottom: 76%;
-  z-index: 15;
+  right: 53%;
+  bottom: 60%;
 }
 
 .product_detail {
