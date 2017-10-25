@@ -693,7 +693,7 @@ select {
   float:left;
   display: inline;
   right: 83%;
-  bottom: 89%;
+  bottom: 92%;
   padding-left:  5px;
 }
 
@@ -703,8 +703,12 @@ select {
   text-align: center;
   float:left;
   display: inline;
-  right: 78%;
-  bottom: 89%;
+  right: 77%;
+  bottom: 92%;
+}
+#cat:hover {
+  transition: background 350ms ease-in;
+  transform: scale(1) translateX(-4px) translateY(3px);
 }
 
 .product_detail {
